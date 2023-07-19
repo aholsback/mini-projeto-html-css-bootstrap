@@ -1,0 +1,56 @@
+/* RESPONSIVIDADE DE TELA */
+/* De 320px a 575px*/
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .carrossel-fonte-azul {
+        font-size: 1.2em;
+    }
+    
+    .carrossel-fonte-laranja {
+        font-size: 1.7em;
+    }
+}
+
+/* De 576px a 767px */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .carrossel-fonte-azul {
+        font-size: 2.5em;
+    }
+    
+    .carrossel-fonte-laranja {
+        font-size: 3.4em;
+    }
+}
+
+/* De 320px a 1024px */
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .grid-dependencias {
+        grid-template-columns: auto;
+    }
+
+    .carrossel-esquerda {
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .carrossel-meio {
+        width: 100vw;
+    }
+    
+    .carrossel-direita {
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* De 992px a 1199px */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .carrossel-fonte-azul {
+        font-size: 2.5em;
+    }
+    
+    .carrossel-fonte-laranja {
+        font-size: 4em;
+    }
+}
